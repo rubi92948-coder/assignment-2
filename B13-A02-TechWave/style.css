@@ -146,3 +146,49 @@ body {
     border-radius: 50px;
     cursor: pointer;
 }
+
+
+.about{
+    padding: 100px 20px;
+    background: #2a144a;
+}
+
+.about-container{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 150px;
+}
+
+.stat h2{
+    font-size: 30px;
+    color: #00FF88;
+}
+
+.stat p{
+    font-size: 10px;    
+    color: #aaa;
+    margin-top: 6px;
+   
+}
+
+.about-text h2{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: #cfcfcf;
+    line-height: 1.5;
+    max-width: 670px;
+}
